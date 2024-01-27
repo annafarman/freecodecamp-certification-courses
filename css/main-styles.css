@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+main {
+    padding: 25px;
+    background-color: rgb(155, 207, 253);
+    margin: 25px auto;
+    max-width: 500px;
+}
+h1, h2 {
+    text-align: center;
+}

@@ -1,2 +1,2 @@
 # freecodecamp-responsive-web-design
-A collection of codes from FreeCodeCamp Responsive Web Design certification.
+A collection of final codes from FreeCodeCamp Responsive Web Design certification.
