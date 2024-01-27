@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    color: rgb(212, 210, 210);
+    font-family: sans-serif;
+}
+
+h1, p#description {
+    text-align: center;
+}
+
+form {
+    margin: 15px 0 0 0;
+}
+
+main {
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 75%;
+    background-color: brown;
+}
+
+label, textarea, input {
+    display: block;
+}
+
+fieldset {
+    margin: 0 0 15px 0;
+    border: none;
+}
+
+.inline {
+    display: inline-block;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 15px auto 5px auto;
+}
+
+/* Constraint test area resizing feature */
+textarea.inline {
+    resize: none;
+}

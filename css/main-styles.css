@@ -3,21 +3,83 @@
     padding:0;
 }
 
-main {
-    padding: 25px;
-    background-color: rgb(155, 207, 253);
-    margin: 25px auto;
-    max-width: 500px;
+body {
+    background-image: url(../img/pexels-jorge-jesus-614117.jpg);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+main {
+    padding: 25px 50px;
+    background-color: rgba(104, 167, 172, 95%);
+    margin: 50px auto 25px auto;
+    max-width: 800px;
+    color: rgb(32, 32, 32);
+    font-size: 18px;
+}
+
+footer {
+    margin: 5px auto 35px auto;
+    font-size: 12px;
+    color: white;
+}
+
 h1, h2 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+h1 {
+    margin: 25px auto 10px auto;
+    font-size: 36px;
 }
 
-a:hover {
-    color: brown;
+h2 {
+    margin: 10px auto 35px auto;
+    font-size: 20px;
 }
+
+h3 {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+a:hover,
+li:hover {
+    color: #865021;
+}
+
+li {
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+
+li.project,
+a.project {
+    color: rgb(134, 30, 39);
+}
+
+li.project:hover,
+a.project:hover {
+    color: rgb(22, 43, 163);
+}
+
+hr {
+    margin: 15px 0;
+    padding: 2px 0 0 0;
+    border: none;
+    background-color: #05697c;
+}
+
+
+
+/*
+#c47530;
+#fac585;  
+#68a7ac;
+#c6a88d;
+*/
