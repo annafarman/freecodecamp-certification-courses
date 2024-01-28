@@ -1,31 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
-    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/pexels-leon-ardho-1552248.jpg);
     color: rgb(212, 210, 210);
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 42px;
 }
 
 h1, p#description {
     text-align: center;
+    margin-bottom: 15px;
+}
+
+p#description {
+    padding: 0 15%;
+    font-size: 18px;
 }
 
 form {
-    margin: 15px 0 0 0;
+    width: 60vw;
+    max-width: 800px;
+    min-width: 300px;
 }
 
 main {
-    margin: 25px auto;
-    padding: 25px;
-    max-width: 75%;
-    background-color: brown;
+    margin: 50px auto 25px auto;
+    padding: 15px 75px;
+    max-width: 800px;
+    background-color: rgba(14, 19, 63, 85%);
+    border-radius: 15px;
 }
 
 label, textarea, input {
     display: block;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.inline.specify {
+    background-color: rgba(23, 29, 87, 0);
+    border: none;
+    border-bottom: 1px solid rgb(212, 210, 210);
 }
 
 fieldset {
@@ -34,15 +77,30 @@ fieldset {
 }
 
 .inline {
+    width: unset;
     display: inline-block;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
 }
 
-button {
-    padding: 5px 15px;
-    margin: 15px auto 5px auto;
-}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 3em auto 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
 
 /* Constraint test area resizing feature */
 textarea.inline {
     resize: none;
+}
+
+footer {
+    margin: 0 auto 35px auto;
+    padding-bottom: 25px;
+    font-size: 12px;
 }

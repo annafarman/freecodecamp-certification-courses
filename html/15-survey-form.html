@@ -12,14 +12,12 @@
         <p id="description">Welcome to our survey page, where your thoughts steer our course! Take a few moments to share your insights and help us sculpt an even better experience tailored just for you. Your feedback is the compass guiding our journey. Let's navigate together!</p>
     
         <form id="survey-form" action="">
-
-
            <fieldset>
-                <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+                <label id="name-label" for="name">Name <input id="name" type="text" placeholder="  Enter your name" required></label>
         
-                <label id="email-label" for="email">E-mail <input id="email" type="email" placeholder="Enter your e-mail" required></label>
+                <label id="email-label" for="email">E-mail <input id="email" type="email" placeholder="  Enter your e-mail" required></label>
 
-                <label id="number-label" for="number">How many days per week do you usually exercise?<input id="number" type="number" min="0" max="7" placeholder="0" required>
+                <label id="number-label" for="number">How many days per week do you usually exercise?<input id="number" type="number" min="0" max="7" placeholder="  0" required>
                 </label>
 
                 <label for="drop-down">How long is your typical exercise session?
@@ -35,10 +33,10 @@
 
             <fieldset>
                 <legend>Gender:</legend>
-                <label for="male"><input class="inline" type="radio" id="male" name="name" checked> Male</label>
+                <label for="male"><input class="inline" type="radio" id="male" name="name"> Male</label>
                 <label for="female"><input class="inline" type="radio" id="female" name="name"> Female</label>
                 <label for="other"><input class="inline" type="radio" id="other" name="name"> Other</label>
-                <label for="decline"><input class="inline" type="radio" id="decline" name="name"> Prefer not to say</label>
+                <label for="decline"><input class="inline" type="radio" id="decline" name="name" checked> Prefer not to say</label>
             </fieldset>
             
     
@@ -50,7 +48,7 @@
                 <label for="modality4"><input class="inline" id="modality4" type="checkbox" value="cycling"> Cycling</label>
                 <label for="modality5"><input class="inline" id="modality5" type="checkbox" value="swimming"> Swimming</label>
                 <label for="modality6"><input class="inline" id="modality6" type="checkbox" value="aerobics-cardio"> Aerobic/Cardio</label>
-                <label for="modality7"><input class="inline" id="modality7" type="checkbox" value="other"> Other (specify) <textarea class="inline" name="other" id="other" cols="30" rows="1" maxlength="50"></textarea> </label>
+                <label for="modality7"><input class="inline" id="modality7" type="checkbox" value="other"> Other (specify) <textarea class="inline specify" name="other" id="other" cols="20" rows="1" maxlength="50"></textarea> </label>
             </fieldset>
 
             <fieldset>
@@ -60,7 +58,7 @@
                 <label for="location3"><input class="inline" id="location3" value="outdoors" type="checkbox"> Outdoors</label>
                 <label for="location4"><input class="inline" id="location4" value="studio" type="checkbox"> Fitness Classes/Studio</label>
                 <label for="location5"><input class="inline" id="location5" value="sports-gym" type="checkbox"> Sports Facility</label>
-                <label for="location6"><input class="inline" id="location6" value="other" type="checkbox"> Other (specify) <textarea class="inline" name="other" id="other" cols="30" rows="1" maxlength="50"></textarea></label>
+                <label for="location6"><input class="inline" id="location6" value="other" type="checkbox"> Other (specify) <textarea class="inline specify" name="other" id="other" cols="20" rows="1" maxlength="50"></textarea></label>
             </fieldset>
             
             <fieldset>
@@ -72,22 +70,22 @@
                 <label for="motivation5"><input class="inline" id="motivation5" value="social" type="checkbox"> Social interaction</label>
                 <label for="motivation6"><input class="inline" id="motivation6" value="competition" type="checkbox"> Competition</label>
                 <label for="motivation7"><input class="inline" id="motivation7" value="enjoyment" type="checkbox"> Enjoyment</label>
-                <label for="motivation8"><input class="inline" id="motivation8" value="other" type="checkbox"> Other (specify) <textarea class="inline" name="other" id="other" cols="30" rows="1" maxlength="50"></textarea></label>
+                <label for="motivation8"><input class="inline" id="motivation8" value="other" type="checkbox"> Other (specify) <textarea class="inline specify" name="other" id="other" cols="20" rows="1" maxlength="50"></textarea></label>
             </fieldset>
 
             <fieldset>
                 <legend>Do you track your exercise progress?</legend>
-                <label for="tracking"><input class="inline" type="radio" name="track" id="tracking"> Yes</label>
+                <label for="tracking"><input class="inline" type="radio" name="track" id="tracking" checked> Yes</label>
                 <label for="no-tracking"><input class="inline" type="radio" name="track" id="no-tracking"> No</label>
             </fieldset>
 
             <fieldset>
                 <legend>If yes, how do you track your progress? (Check all that apply)</legend>
-                <label for="tracker1"><input class="inline" id="tracker1" value="fitness-app" type="checkbox"> Fitness app (specify) <textarea class="inline" name="tracker1" id="fitness-app" cols="30" rows="1" maxlength="50"></textarea></label>
-                <label for="tracker2"><input class="inline" id="tracker2" value="wearable" type="checkbox"> Wearable fitness tracker (specify) <textarea class="inline" name="tracker2" id="wearable" cols="30" rows="1" maxlength="50"></textarea></label>
+                <label for="tracker1"><input class="inline" id="tracker1" value="fitness-app" type="checkbox"> Fitness app (specify)   <textarea class="inline specify" name="tracker1" id="fitness-app" cols="20" rows="1" maxlength="50"></textarea></label>
+                <label for="tracker2"><input class="inline" id="tracker2" value="wearable" type="checkbox"> Wearable fitness tracker (specify)   <textarea class="inline specify" name="tracker2" id="wearable" cols="20" rows="1" maxlength="50"></textarea></label>
                 <label for="tracker3"><input class="inline" id="tracker3" value="journal" type="checkbox"> Journal/Notebook</label>
                 <label for="tracker4"><input class="inline" id="tracker4" value="personal-trainer" type="checkbox"> Personal Trainer</label>
-                <label for="tracker5"><input class="inline" id="tracker5" value="other" type="checkbox"> Other (pecify) <textarea class="inline" name="other" id="other" cols="30" rows="1" maxlength="50"></textarea></label>
+                <label for="tracker5"><input class="inline" id="tracker5" value="other" type="checkbox"> Other (pecify) <textarea class="inline specify" name="other" id="other" cols="20" rows="1" maxlength="50"></textarea></label>
             </fieldset>
 
             <fieldset>
@@ -98,13 +96,13 @@
                 <label for="obstacle4"><input class="inline" id="obstacle4" value="health" type="checkbox"> Health issues/injuries</label>
                 <label for="obstacle5"><input class="inline" id="obstacle5" value="weather" type="checkbox"> Weather conditions</label>
                 <label for="obstacle6"><input class="inline" id="obstacle6" value="other-commitments" type="checkbox"> Family commitments</label>
-                <label for="obstacle7"><input class="inline" id="obstacle7" value="other" type="checkbox"> Other(specify) <textarea class="inline" name="obstacle7" id="obstacle7" cols="30" rows="1" maxlength="50"></textarea></label>
+                <label for="obstacle7"><input class="inline" id="obstacle7" value="other" type="checkbox"> Other(specify) <textarea class="inline specify" name="obstacle7" id="obstacle7" cols="20" rows="1" maxlength="50"></textarea></label>
             </fieldset>
 
             <fieldset>
                 <legend>Would you be interested in personalized exercise programs or training sessions?</legend>
-                <label for="personalize"><input class="inline" id="personalize" value="yes" type="radio" name="personalized"> Yes</label>
-                <label for="no-personalize"><input class="inline" id="no-personalize" value="no" type="radio" name="personalized" checked> No</label>
+                <label for="personalize"><input class="inline" id="personalize" value="yes" type="radio" name="personalized" checked> Yes</label>
+                <label for="no-personalize"><input class="inline" id="no-personalize" value="no" type="radio" name="personalized"> No</label>
                 <label for="maybe-personalize"><input class="inline" id="maybe-personalize" value="maybe" type="radio" name="personalized"> Maybe</label>
             </fieldset>
 
@@ -115,15 +113,21 @@
                 <label for="happy-lvl-3"><input type="radio" class="inline" id="happy-lvl-3" value="3" name="satisfaction-lvl"> 3</label>
                 <label for="happy-lvl-4"><input type="radio" class="inline" id="happy-lvl-4" value="4" name="satisfaction-lvl"> 4</label>
                 <label for="happy-lvl-5"><input type="radio" class="inline" id="happy-lvl-5" value="5" name="satisfaction-lvl" checked> 5 (Completely satisfied)</label>
-                <p>Please provide more details in the text area provided below.</p>
             </fieldset>
 
-            <label for="comments">Additional comments or suggestion: <textarea name="comments" id="comments" cols="30" rows="3" placeholder="Got some brain candy to drop? Fire away!"></textarea></label>
+            <fieldset>
+                <label for="comments">Additional comments or suggestion: <textarea name="comments" id="comments" cols="30" rows="3" placeholder=" Got some brain candy to drop? Fire away!"></textarea></label>
             
-            <button type="submit">Submit</button>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+          
 
         </form>
     </main>
+    <footer>
+        &#169; Anna Farman 2024 FreeCodeCamp 
+    </footer>
     
     
 </body>
