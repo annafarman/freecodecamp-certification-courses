@@ -13,6 +13,7 @@ body {
 main {
     padding: 25px 50px;
     background-color: rgba(104, 167, 172, 95%);
+    border-radius: 5px;
     margin: 50px auto 25px auto;
     max-width: 800px;
     color: rgb(32, 32, 32);
