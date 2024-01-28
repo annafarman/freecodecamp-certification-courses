@@ -20,8 +20,8 @@
                 <label id="number-label" for="number">How many days per week do you usually exercise?<input id="number" type="number" min="0" max="7" placeholder="  0" required>
                 </label>
 
-                <label for="drop-down">How long is your typical exercise session?
-                    <select name="exercise-session" id="drop-down" required>
+                <label for="dropdown">How long is your typical exercise session?
+                    <select name="exercise-session" id="dropdown" required>
                         <option value="">(select one)</option>
                         <option value="1">Less than 30 minutes</option>
                         <option value="2">30-45 minutes</option>
@@ -33,10 +33,10 @@
 
             <fieldset>
                 <legend>Gender:</legend>
-                <label for="male"><input class="inline" type="radio" id="male" name="name"> Male</label>
-                <label for="female"><input class="inline" type="radio" id="female" name="name"> Female</label>
-                <label for="other"><input class="inline" type="radio" id="other" name="name"> Other</label>
-                <label for="decline"><input class="inline" type="radio" id="decline" name="name" checked> Prefer not to say</label>
+                <label for="male"><input class="inline" type="radio" id="male" value="male"  name="name"> Male</label>
+                <label for="female"><input class="inline" type="radio" id="female" value="female" name="name"> Female</label>
+                <label for="other"><input class="inline" type="radio" id="other" value="other" name="name"> Other</label>
+                <label for="decline"><input class="inline" type="radio" id="decline" value="decline" name="name" checked> Prefer not to say</label>
             </fieldset>
             
     
@@ -75,8 +75,8 @@
 
             <fieldset>
                 <legend>Do you track your exercise progress?</legend>
-                <label for="tracking"><input class="inline" type="radio" name="track" id="tracking" checked> Yes</label>
-                <label for="no-tracking"><input class="inline" type="radio" name="track" id="no-tracking"> No</label>
+                <label for="tracking"><input class="inline" type="radio" name="track" id="tracking" value="tracking" checked> Yes</label>
+                <label for="no-tracking"><input class="inline" type="radio" name="track" id="no-tracking" value="no-tracking"> No</label>
             </fieldset>
 
             <fieldset>
@@ -118,7 +118,7 @@
             <fieldset>
                 <label for="comments">Additional comments or suggestion: <textarea name="comments" id="comments" cols="30" rows="3" placeholder=" Got some brain candy to drop? Fire away!"></textarea></label>
             
-                <input type="submit" value="Submit">
+                <input id="submit" type="submit" value="Submit">
             </fieldset>
 
           
