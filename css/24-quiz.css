@@ -18,7 +18,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+
+    /*so it stays at the top even when the page is scrolled*/
+    position: fixed; 
     top: 0;
   }
   
@@ -71,6 +73,8 @@ This can be helpful when you have deeply nested elements and want to control the
     color: #1b1b32;
     cursor: pointer;
   }
+
+  /* All anchor elements within the list elements */
   
   li > a {
     color: inherit;
@@ -139,6 +143,8 @@ This can be helpful when you have deeply nested elements and want to control the
     padding-left: 15px;
     font-size: 20px;
   }
+
+  /* To prevent unnecessary repetition, target the before pseudo-element of the p element, and give it a content property of "Question #".*/
   
   p::before {
     content: "Question #";

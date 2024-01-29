@@ -7,3 +7,4 @@ Photo by Jorge Jesus: https://www.pexels.com/photo/computer-program-language-tex
 
 Photo by Leon Ardho: https://www.pexels.com/photo/photo-of-man-jumping-on-box-1552248/
 
+Mufasa photo: https://wallpapers.com/wallpapers/lion-king-mufasa-fan-art-tiuctx747a1wgl41.html

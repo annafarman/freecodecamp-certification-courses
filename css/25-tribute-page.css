@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #4b3535;
+    font-size: 18px;
+}
+
+main {
+    background-color: #fae9df;
+    margin: 24px auto;
+    max-width: 90%;
+    padding: 25px 50px; /*MAYBE NEED TO REMOVE PADDING */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+img {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+/* Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size */
+#image {
+    height: 100%; /*Need all of these 3 to make it size responsively*/
+    width: auto;
+    max-width: 80%;
+
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+#img-caption {
+    font-size: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4b3535;
+}
+
+#tribute-info {
+    margin: 50px 20%;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+/* figure {
+    background-color: #b59c89 ;
+    border-radius: 5px;
+} */
+
+/* 
+    #fae9df 	rgb(250,233,223);
+	#f3cece 	rgb(243,206,206);
+	#dc8c8c 	rgb(220,140,140);
+	#b59c89 	rgb(181,156,137);
+	#8e6565 	rgb(142,101,101);
+     */
