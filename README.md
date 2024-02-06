@@ -3,14 +3,13 @@ A collection of final codes from FreeCodeCamp Responsive Web Design certificatio
 
 Images credits:
 
-Photo by Jorge Jesus: https://www.pexels.com/photo/computer-program-language-text-614117/
-
 Photo by Leon Ardho: https://www.pexels.com/photo/photo-of-man-jumping-on-box-1552248/
 
 Mufasa photo: https://wallpapers.com/wallpapers/lion-king-mufasa-fan-art-tiuctx747a1wgl41.html
 
 Icons:
 
-Home icon from icons8: https://icons8.com/icon/2797/home
+Home icon from Icons8: https://icons8.com/icon/eIM3rBvyFbHA/home
+
 
 
